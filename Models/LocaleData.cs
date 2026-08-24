@@ -7,4 +7,5 @@ public class LocaleData
     public List<string> FirstNames { get; set; } = new();
     public List<string> LastNames { get; set; } = new();
     public List<string> Genres { get; set; } = new();
+    public List<string> ReviewPhrases { get; set; } = new();
 }

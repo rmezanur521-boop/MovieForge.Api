@@ -4,13 +4,33 @@
     "titleNouns": [ "Horizon", "Shadow", "Legacy", "Empire", "Journey", "Secret", "Kingdom", "Storm", "Memory", "Flame" ],
     "firstNames": [ "James", "Sarah", "Michael", "Emily", "Daniel", "Olivia", "Robert", "Sophia", "David", "Grace" ],
     "lastNames": [ "Carter", "Bennett", "Hughes", "Morgan", "Reed", "Foster", "Bailey", "Coleman", "Hayes", "Price" ],
-    "genres": [ "Action", "Drama", "Thriller", "Comedy", "Sci-Fi", "Romance", "Horror", "Adventure" ]
+    "genres": [ "Action", "Drama", "Thriller", "Comedy", "Sci-Fi", "Romance", "Horror", "Adventure" ],
+    "reviewPhrases": [
+      "A must-watch experience.",
+      "Solid performances throughout.",
+      "The pacing felt a bit slow.",
+      "Visually stunning from start to end.",
+      "Not what I expected, but enjoyable.",
+      "One of the best of the year.",
+      "The story could have been tighter.",
+      "A genuinely emotional journey."
+    ]
   },
   "bn-BD": {
     "titleAdjectives": [ "নীরব", "সোনালী", "ভাঙা", "গোপন", "শেষ", "রক্তিম", "হারানো", "অসীম", "জমাট", "বন্য" ],
     "titleNouns": [ "দিগন্ত", "ছায়া", "উত্তরাধিকার", "সাম্রাজ্য", "যাত্রা", "রহস্য", "রাজ্য", "ঝড়", "স্মৃতি", "শিখা" ],
     "firstNames": [ "রাহুল", "সাদিয়া", "ফারহান", "নুসরাত", "তানভীর", "মিথিলা", "আরিফ", "সুমাইয়া", "ইমরান", "রিয়া" ],
     "lastNames": [ "আহমেদ", "চৌধুরী", "ইসলাম", "হোসেন", "রহমান", "খান", "সরকার", "মজুমদার", "হক", "আলী" ],
-    "genres": [ "অ্যাকশন", "নাটক", "থ্রিলার", "কমেডি", "কল্পবিজ্ঞান", "রোমান্স", "হরর", "সাহসিকতা" ]
+    "genres": [ "অ্যাকশন", "নাটক", "থ্রিলার", "কমেডি", "কল্পবিজ্ঞান", "রোমান্স", "হরর", "সাহসিকতা" ],
+    "reviewPhrases": [
+      "অবশ্যই দেখার মতো একটি অভিজ্ঞতা।",
+      "শুরু থেকে শেষ পর্যন্ত দুর্দান্ত পারফর্ম্যান্স।",
+      "গল্পের গতি কিছুটা ধীর মনে হয়েছে।",
+      "দৃশ্যপট চমৎকার এবং নান্দনিক।",
+      "যেমনটা ভেবেছিলাম তেমন নয়, তবে উপভোগ্য।",
+      "বছরের অন্যতম সেরা কাজ।",
+      "গল্পের বাঁধন আরেকটু শক্ত হতে পারত।",
+      "সত্যিই একটি আবেগঘন সফর।"
+    ]
   }
 }
