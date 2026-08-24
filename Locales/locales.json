@@ -1,0 +1,16 @@
+﻿{
+  "en-US": {
+    "titleAdjectives": [ "Silent", "Golden", "Broken", "Hidden", "Final", "Crimson", "Lost", "Endless", "Frozen", "Wild" ],
+    "titleNouns": [ "Horizon", "Shadow", "Legacy", "Empire", "Journey", "Secret", "Kingdom", "Storm", "Memory", "Flame" ],
+    "firstNames": [ "James", "Sarah", "Michael", "Emily", "Daniel", "Olivia", "Robert", "Sophia", "David", "Grace" ],
+    "lastNames": [ "Carter", "Bennett", "Hughes", "Morgan", "Reed", "Foster", "Bailey", "Coleman", "Hayes", "Price" ],
+    "genres": [ "Action", "Drama", "Thriller", "Comedy", "Sci-Fi", "Romance", "Horror", "Adventure" ]
+  },
+  "bn-BD": {
+    "titleAdjectives": [ "নীরব", "সোনালী", "ভাঙা", "গোপন", "শেষ", "রক্তিম", "হারানো", "অসীম", "জমাট", "বন্য" ],
+    "titleNouns": [ "দিগন্ত", "ছায়া", "উত্তরাধিকার", "সাম্রাজ্য", "যাত্রা", "রহস্য", "রাজ্য", "ঝড়", "স্মৃতি", "শিখা" ],
+    "firstNames": [ "রাহুল", "সাদিয়া", "ফারহান", "নুসরাত", "তানভীর", "মিথিলা", "আরিফ", "সুমাইয়া", "ইমরান", "রিয়া" ],
+    "lastNames": [ "আহমেদ", "চৌধুরী", "ইসলাম", "হোসেন", "রহমান", "খান", "সরকার", "মজুমদার", "হক", "আলী" ],
+    "genres": [ "অ্যাকশন", "নাটক", "থ্রিলার", "কমেডি", "কল্পবিজ্ঞান", "রোমান্স", "হরর", "সাহসিকতা" ]
+  }
+}
