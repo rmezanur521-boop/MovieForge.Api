@@ -8,5 +8,6 @@ public class Movie
     public int Year { get; set; }
     public string Genre { get; set; } = string.Empty;
     public int Likes { get; set; }
+    public TrailerSpec Trailer { get; set; } = new();
     public List<string> Reviews { get; set; } = new();
 }

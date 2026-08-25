@@ -48,6 +48,8 @@ public class MovieGeneratorService : IMovieGeneratorService
             var reviews = new List<string>();
             for (var r = 0; r < reviewCount; r++)
                 reviews.Add(reviewsRnd.ListItem(locale.ReviewPhrases));
+            var trailerRnd = new Randomizer(CombineSeed(request.Seed, globalIndex, 3));
+            var trailer = GenerateTrailerSpec(trailerRnd);
 
             movies.Add(new Movie
             {
@@ -57,7 +59,8 @@ public class MovieGeneratorService : IMovieGeneratorService
                 Year = year,
                 Genre = genre,
                 Likes = likes,
-                Reviews = reviews
+                Reviews = reviews,
+                Trailer= trailer
             });
         }
 
@@ -78,5 +81,21 @@ public class MovieGeneratorService : IMovieGeneratorService
         {
             return (int)(seed * 397 + index * 31 + salt);
         }
+    }
+    private static readonly string[] AnimationStyles = { "slide-fade", "zoom-pulse", "typewriter", "flip-reveal" };
+    private static readonly string[] ColorPalette =
+    {
+    "#e63946", "#457b9d", "#2a9d8f", "#f4a261", "#8338ec", "#ffb703"
+};
+
+    private static TrailerSpec GenerateTrailerSpec(Randomizer rnd)
+    {
+        return new TrailerSpec
+        {
+            AnimationStyle = rnd.ListItem(AnimationStyles),
+            PrimaryColor = rnd.ListItem(ColorPalette),
+            SecondaryColor = rnd.ListItem(ColorPalette),
+            DurationMs = rnd.Int(5000, 9000)
+        };
     }
 }
