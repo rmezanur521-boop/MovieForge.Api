@@ -7,7 +7,8 @@ public class Movie
     public List<string> Actors { get; set; } = new();
     public int Year { get; set; }
     public string Genre { get; set; } = string.Empty;
+    public int RuntimeMinutes { get; set; }
     public int Likes { get; set; }
+    public List<ReviewItem> Reviews { get; set; } = new();
     public TrailerSpec Trailer { get; set; } = new();
-    public List<string> Reviews { get; set; } = new();
 }

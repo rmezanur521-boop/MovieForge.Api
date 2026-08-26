@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 bin/
 obj/
 .vs/
+=======
+bin/
+obj/
+.vs/
+>>>>>>> 570748c (add runtime, reviewer details, and music track to generated movie data)
